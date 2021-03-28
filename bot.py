@@ -122,5 +122,6 @@ async def task2_command(message: types.Message):
         with open(url, 'rb') as photo:
             await bot.send_photo(message.from_user.id, photo, caption=caption)
 
+
 if __name__ == '__main__':
     executor.start_polling(dp)

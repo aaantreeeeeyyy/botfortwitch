@@ -53,3 +53,6 @@ urllib3==1.26.2
 virtualenv==20.4.3
 Werkzeug==1.0.1
 yarl==1.6.3
+
+pyngrok~=5.0.5
+psycopg2~=2.8.6
